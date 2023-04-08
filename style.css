@@ -1,0 +1,172 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+  	color: #FAFAFF;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #FAFAFF;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: fixed;
+	width: 80%;
+	top: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+	background-color: #1C1C1C;
+	z-index: 1;
+  }
+  
+#avik-s {
+	margin-right: auto;
+	font-size: 30px;
+	font-weight: 1000;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+
+.nav__links li {
+	padding: 0px 20px;
+}
+  
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+}
+  
+.nav__links li a:hover {
+	color: #0088a9; 
+}  
+
+nav {
+	background-color: #1C1C1C;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	display: flex;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h2 {
+	padding: 220px 20px 20px 20px; 
+	margin-top: -200px;
+	color: #1C1C1C;
+	text-align: center;
+}
+
+/* About Me section */
+
+
+.about-me {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ 
+.about-me img {
+	object-fit: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	margin-right: 20px;
+}
+
+.about-me p {
+	text-align: center;
+	color: #1C1C1C;
+	line-height: 25px;
+	max-width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+	.about-me {
+	flex-direction: column;
+	}
+
+	.about-me img {
+	margin-right: 0;
+	margin-bottom: 20px;
+	}
+}
+  
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.portfolio h3 {
+	color: #1C1C1C;
+}
+
+.portfolio a {
+	width: 30%;
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #1C1C1C;
+	background-color: #EEF0F2;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease-in-out;
+}
+
+.portfolio a:hover {
+	transform: translateY(-5px);
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio img {
+	width: 100%;
+	color: #1C1C1C;
+}
+
+.photo-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.photo-gallery img {
+	width: 600px;
+    height: 600px;
+    object-fit: cover;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease-in-out;
+}
+
+.photo-gallery img:hover {
+	transform: translateY(-5px);
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+	background-color: #1C1C1C;
+	color: #DADDD8;
+	text-align: center;
+	padding: 10px;
+}
